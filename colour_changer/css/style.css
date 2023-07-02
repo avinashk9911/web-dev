@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Caprasimo', cursive;
+}
+
+body{
+    transition: 2s;
+    /* it will take time to change the colour  */
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem; /*1rem= 16pixels */
+   /*  height: 15rem; we are not putting this, so that the container will automatically take up all the requred height */
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 20px; /*as button is a inline element so that the text-align will work with the button*/                  
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
