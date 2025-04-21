@@ -15,6 +15,11 @@ var getName2 = () =>{
     console.log("Namaste jas")
 }
 
+//this will act like a js variable 
+var getName3 = function () {
+
+}
+
 // console.log(getName);
 // getName()
 // console.log(x)
