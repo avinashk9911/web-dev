@@ -17,6 +17,7 @@ const Content = () => {
   }
 
   const handleClick1 = () => {
+    setCount(count + 1)
     console.log(count)
   }
   const handleClick2 = (name) => {
